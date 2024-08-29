@@ -185,3 +185,46 @@ li {
 h1 {
   text-align: center;
 }
+
+/* Styles for Cards */
+.hours {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border: 1.25px solid rgb(233, 233, 233);
+  border-radius: 16px;
+  margin: 10px;
+  transition: 0.5s all;
+  --shadow: transparent;
+  box-shadow: 0 0 10px 5px var(--shadow);
+  position: relative;
+  font-size: 100%;
+}
+
+.hours:hover {
+  --shadow: rgba(53, 53, 53, 0.103);
+  /* transform: rotateY(180deg) translate(20px, 20px);
+  background: pink; */
+}
+
+.hours:hover .main-content {
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.hours h2 {
+  text-align: center;
+  color: indianred;
+}
+
+.hours h3 {
+  text-align: center;
+  color: grey;
+}
+
+.hours p {
+  text-align: center;
+  font-weight: bold;
+  color: tomato;
+}

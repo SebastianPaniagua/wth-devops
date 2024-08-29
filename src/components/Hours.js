@@ -63,9 +63,9 @@ const Hours = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Shelter Hours</h1>
-      <h2>{dayName}</h2>
+    <div className="hours">
+      <h2>Our opening hours</h2>
+      <h3>{dayName}</h3>
       <p>{status}</p>
     </div>
   );

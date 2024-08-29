@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 
         <img
           id="title"
-          src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Pet_logo_with_flowers.png"
+          src="https://20240828petshopstorage.blob.core.windows.net/petshop/pet_shelter_4.png?sp=r&st=2024-08-29T02:41:55Z&se=2024-08-29T10:41:55Z&spr=https&sv=2022-11-02&sr=b&sig=ZX8FgTqLggSOhR5EGfxBo7fCkC3ZbRdOuw2UItbE7hA%3D"
           alt="pet care logo"
         ></img>
       </div>
