@@ -1,4 +1,4 @@
-  name: WTH :: Sebastian Paniagua :: Deploy to Azure
+  name: WTH - Sebastian Paniagua - Deploy to Azure
   on:
     push:
       branches:
